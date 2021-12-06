@@ -1,0 +1,36 @@
+:root{
+    --green: rgb(0,205,124);
+    --lightgrey:rgb(240,240,240);
+    --darkgrey: rgb(220,220,220);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: var(--lightgrey);
+}
+
+.colum{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.container{
+    width: 450px;
+    background-color: var(--green);
+
+}
+
+.nav{
+    padding: 2%;
+}
+
+.container-menu{
+    display: flex;
+    justify-content: end;
+}
