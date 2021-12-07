@@ -48,7 +48,7 @@ body{
 .bgdark{
     background-color: var(--darkgrey);
     height: 65px;
-    margin: 10%;
+    margin: 25% 10%;
     clip-path: polygon(0 15%, 0 0, 100% 0, 100% 74%, 59% 75%, 55% 100%, 51% 75%, 25% 75%, 31% 0, 30% 0, 24% 75%, 0 75%);
 }
 
@@ -68,7 +68,7 @@ body{
     display: flex;
     justify-content: end;
     margin: 0% 12.5%;
-    transform: translateY(-36px);
+    transform: translateY(-95px);
     font-size: 14px;
 }
 
@@ -88,4 +88,10 @@ body{
 
 .fa-white{
     color: white;
+}
+
+.footer{
+    border-top: var(--grey) solid;
+    padding: 3%;
+    background-color: white;
 }
