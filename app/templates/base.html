@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ribaguifi</title>
+  <meta
+      name="description"
+      content="Prueba técnica para Ribaguifi"
+  />
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}" type="text/css" />
+  <script
+      src="https://kit.fontawesome.com/1ed068a928.js"
+      crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+  <div class="container">
+    <header class="row">
+        <div class="row center bgdark">
+            <h2 class="whitetext">Cat</h2>
+            <span class="linegreen"></span>
+            <h2 class="whitetext">Aragonario</h2>
+        </div>
+        <nav class="nav">
+            <div class="container-menu">
+              <i class="fas fa-bars fas-xx-large"></i>
+            </div>
+        </nav>
+    </header>
+    
+        {% block content %}{% endblock %}
+    <footer class="footer center">
+      <i class="fas fa-chevron-up fas-xx-large"></i>
+    </footer>
+  </div>
+</body>
+</html>

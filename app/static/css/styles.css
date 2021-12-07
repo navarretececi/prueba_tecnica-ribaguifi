@@ -1,4 +1,5 @@
 :root{
+    --white:rgb(255, 255, 255);
     --green: rgb(0,205,124);
     --lightgrey:rgb(240,240,240);
     --grey: rgb(220,220,220);
@@ -29,8 +30,15 @@ body{
 
 .container{
     width: 400px;
-    background-color: var(--green);
     box-shadow: 8px 6px 15px var(--darkgrey);
+}
+
+.bggreen{
+    background-color: var(--green);
+}
+
+.bgwhite{
+    background-color: var(--white);
 }
 
 .nav{
@@ -59,7 +67,7 @@ body{
 }
 
 .whitetext{
-    color: white;
+    color: var(--white);
     font-size: 45px;
     transform: translateY(-10px);
 }
@@ -88,7 +96,7 @@ body{
 }
 
 .fa-white{
-    color: white;
+    color: var(--white);
 }
 
 .selector{
@@ -101,5 +109,5 @@ body{
 .footer{
     box-shadow: 0px -3px 3px var(--grey);
     padding: 3%;
-    background-color: white;
+    background-color: var(--white);
 }
