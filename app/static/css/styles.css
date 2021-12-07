@@ -30,6 +30,7 @@ body{
 .container{
     width: 400px;
     background-color: var(--green);
+    box-shadow: 8px 6px 15px var(--darkgrey);
 }
 
 .nav{
@@ -41,7 +42,7 @@ body{
     justify-content: end;
 }
 
-.fas{
+.fas-xx-large{
     font-size: xx-large;
 }
 
@@ -90,8 +91,15 @@ body{
     color: white;
 }
 
+.selector{
+    display: flex;
+    padding: 3% 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .footer{
-    border-top: var(--grey) solid;
+    box-shadow: 0px -3px 3px var(--grey);
     padding: 3%;
     background-color: white;
 }
