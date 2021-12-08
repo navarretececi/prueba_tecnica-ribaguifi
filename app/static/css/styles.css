@@ -41,6 +41,14 @@ body{
     background-color: var(--white);
 }
 
+.bggrey{
+    background-color: var(--darkgrey);
+}
+
+.bglightgrey{
+    background-color: var(--lightgrey);
+}
+
 .nav{
     padding: 5% 10%;
 }
@@ -54,11 +62,23 @@ body{
     font-size: xx-large;
 }
 
-.bgdark{
-    background-color: var(--darkgrey);
+.clip-logo{
     height: 65px;
-    margin: 25% 10%;
     clip-path: polygon(0 15%, 0 0, 100% 0, 100% 74%, 59% 75%, 55% 100%, 51% 75%, 25% 75%, 31% 0, 30% 0, 24% 75%, 0 75%);
+}
+
+.clip-base{
+    height: 65px;
+    clip-path: polygon(0 15%, 0 0, 100% 0, 100% 75%, 49% 75%, 46% 100%, 42% 75%, 22% 75%, 28% 0, 27% 0, 21% 75%, 0 75%);
+}
+
+.clip-triangle{
+    clip-path: polygon(20% 0, 50% 55%, 80% 0);
+    height: 100%;
+}
+
+.margin25-10{
+    margin: 25% 10%;
 }
 
 .linegreen{
@@ -89,9 +109,8 @@ body{
     font-size: 20px;
 }
 
-.searchimg{
-    background-color: var(--darkgrey);
-    height: 71px;
+.searching{
+    height: 70px;
     width: 70px;
 }
 
@@ -110,4 +129,26 @@ body{
     box-shadow: 0px -3px 3px var(--grey);
     padding: 3%;
     background-color: var(--white);
+}
+
+.headbase{
+    justify-content: space-around;
+    padding: 3% 0;
+}
+
+.sectionpage2{
+    padding: 10% 0 115%;
+}
+
+.spacearound{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linegrey{
+    border-bottom: 2px solid var(--lightgrey);
+        height: 40px;
+        width: 45px;
+        margin-left: 7%;
+        transform: translateY(-3px);
 }
