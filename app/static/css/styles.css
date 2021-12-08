@@ -12,7 +12,7 @@ body{
     background-color: var(--lightgrey);
 }
 
-.colum{
+.column{
     display: flex;
     flex-direction: column;
 }
@@ -147,8 +147,17 @@ body{
 
 .linegrey{
     border-bottom: 2px solid var(--lightgrey);
-        height: 40px;
-        width: 45px;
-        margin-left: 7%;
-        transform: translateY(-3px);
+    height: 40px;
+    width: 45px;
+    margin-left: 7%;
+    transform: translateY(-3px);
+}
+
+.greentext{
+    color: var(--green);
+}
+
+.selectordown{
+    transform: translate(167px, -3px);
+    width: 152px;
 }
