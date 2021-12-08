@@ -1,36 +1,69 @@
-{% extends "base.html" %}
-
-{% block content %}
-<section class="sectionpage2">
-    <div class="row spacearound">
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ribaguifi</title>
+  <meta
+      name="description"
+      content="Prueba técnica para Ribaguifi"
+  />
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}" type="text/css" />
+  <script
+      src="https://kit.fontawesome.com/1ed068a928.js"
+      crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+  <div class="container bgwhite">
+    <header class="row headbase clip-base bggreen">
+        <div class="center"> 
+            <a href="./" class="row center">
+                <h2 class="whitetext">Cat</h2>
+                <span class="linegreen"></span>
+                <h2 class="whitetext">Aragonario</h2>
+            </a>
+        </div>
+        <nav class="bggreen">
+            <div class="container-menu">
+              <i class="fas fa-bars fas-xx-large fa-white"></i>
+            </div>
+        </nav>
+    </header>
+    <section class="sectionpage2">
+        <div class="row spacearound">
+            <div class="row">
+               <input class="searchtext bglightgrey" type="text" placeholder="Catalán de Aragón">
+                <div class="searching center bggreen">
+                    <i class="fas fa-search fa-white fas-xx-large"></i>
+                </div> 
+            </div>
+            <div>
+                <div class="searching center bggreen">
+                    <img class="zigzag" alt="zigzag arrow" src="../static/images/zigzagarrow.png"/>
+                </div> 
+            </div>
+        </div>
         <div class="row">
-           <input class="searchtext bglightgrey" type="text" placeholder="Catalán de Aragón">
-            <div class="searching center bggreen">
-                <i class="fas fa-search fa-white fas-xx-large"></i>
-            </div> 
-        </div>
-        <div>
-            <div class="searching center bggreen">
-                <i class="fas fa-sync-alt fa-white fas-xx-large"></i>
-            </div> 
-        </div>
-    </div>
-    <div class="row">
-        <div class="linegrey">
-            <div class="clip-triangle bglightgrey">ss</div>
-        </div>
-        <div class="column center bglightgrey selectordown">
-            <h3 class="greentext">cat. nor.</h3>
-            <div>
-                <i class="fas fa-long-arrow-alt-up greentext"></i>
+            <div class="linegrey">
+                <div class="clip-triangle bglightgrey">ss</div>
             </div>
-            <h3 class="greentext">cat. de ara.</h3>
-            <div>
-                <i class="fas fa-long-arrow-alt-down greentext"></i>
+            <div class="column center bglightgrey selectordown">
+                <h3 class="greentext">cat. nor.</h3>
+                <div>
+                    <i class="fas fa-long-arrow-alt-up greentext"></i>
+                </div>
+                <h3 class="greentext">cat. de ara.</h3>
+                <div>
+                    <i class="fas fa-long-arrow-alt-down greentext"></i>
+                </div>
+                <h3 class="greentext">cast. nor</h3>
             </div>
-            <h3 class="greentext">cast. nor</h3>
         </div>
-    </div>
-    
-</section>
-{% endblock %}
+    </section>
+    <footer class="footer center">
+      <i class="fas fa-chevron-up fas-xx-large"></i>
+    </footer>
+  </div>
+</body>
+</html>
