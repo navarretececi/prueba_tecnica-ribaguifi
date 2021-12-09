@@ -18,6 +18,10 @@ a:active {
   text-decoration: none;
 }
 
+a:hover{
+	cursor: pointer;
+}
+
 input:focus-visible{
     outline: none;
 }
