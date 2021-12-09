@@ -42,6 +42,11 @@ input:focus-visible{
     align-items: center;
 }
 
+.spaceabetween{
+    justify-content: space-between;
+    align-items: center;
+}
+
 .container{
     width: 400px;
     box-shadow: 8px 6px 15px var(--darkgrey);
@@ -63,6 +68,10 @@ input:focus-visible{
     background-color: var(--lightgrey);
 }
 
+.bgdictionary{
+    background-color: rgb(220,220,220);
+}
+
 .nav{
     padding: 5% 10%;
 }
@@ -76,23 +85,27 @@ input:focus-visible{
     font-size: xx-large;
 }
 
-.clip-logo{
+.clip-greylogo{
     height: 65px;
     clip-path: polygon(0 15%, 0 0, 100% 0, 100% 74%, 59% 75%, 55% 100%, 51% 75%, 25% 75%, 31% 0, 30% 0, 24% 75%, 0 75%);
 }
 
-.clip-base{
+.clip-greenlogo{
     height: 65px;
     clip-path: polygon(0 15%, 0 0, 100% 0, 100% 75%, 49% 75%, 46% 100%, 42% 75%, 22% 75%, 28% 0, 27% 0, 21% 75%, 0 75%);
 }
 
 .clip-triangle{
-    clip-path: polygon(20% 0, 50% 55%, 80% 0);
-    height: 100%;
+    clip-path: polygon(0% 0, 10% 64%, 20% 0);
+    height: 37px;
 }
 
 .margin25-10{
     margin: 25% 10%;
+}
+
+.marginL3{
+    margin-left: 3%;
 }
 
 .linegreen{
@@ -102,6 +115,21 @@ input:focus-visible{
 
 .whitetext{
     color: var(--white);
+}
+
+.greentext{
+    color: var(--green);
+}
+
+.greytext{
+    color: var(--grey)
+}
+
+.italic{
+    font-style: italic;
+}
+
+.whitetextlogo{
     font-size: 45px;
     transform: translateY(-10px);
 }
@@ -128,10 +156,6 @@ input:focus-visible{
     width: 70px;
 }
 
-.fa-white{
-    color: var(--white);
-}
-
 .selector{
     display: flex;
     padding: 3% 10% 40%;
@@ -150,36 +174,60 @@ input:focus-visible{
     padding: 3% 0;
 }
 
-.sectionpage2{
-    padding: 3%;
-    min-height: 500px;
-}
-
-.spacearound{
-    justify-content: space-around;
-    align-items: center;
-}
-
-.linegrey{
-    border-bottom: 2px solid var(--lightgrey);
-    height: 40px;
-    width: 45px;
+.containertriangle{
     margin-left: 7%;
     transform: translateY(-3px);
 }
 
-.greentext{
-    color: var(--green);
+.linegrey{
+    border-bottom: 2px solid var(--lightgrey);
+    margin-left: 7%;
+    width: 45px;
 }
 
-.selectordown{
-    transform: translate(163px, -3px);
-    width: 140px;
+.dropdown{
+    transform: translateY(-24px);
+    width: 144px;
 }
 
 .zigzag{
     height: 75%;
 }
+
+.bordertext{
+    border: 2px solid;
+    padding: 1% 2%;
+}
+
+.bordergreen{
+    border-color: var(--green);
+}
+
+.dictionary-paragraph{
+    margin-top: 0;
+    padding: 2%;
+}
+
+.dictionary-title{
+   margin-bottom: 0;
+   padding: 1% 2%;
+}
+
+.margin3{
+    margin: 3%;
+    min-height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 .displaynone{
