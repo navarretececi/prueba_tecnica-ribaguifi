@@ -35,47 +35,39 @@
             <div class="row spaceabetween">
                 <div class="row">
                 <input class="searchtext bglightgrey" type="text" placeholder="Catalán de Aragón">
-                    <div class="searching center bggreen">
+                    <div class="searching center bggreen" id="search-btn">
                         <i class="fas fa-search  fas-xx-large whitetext"></i>
                     </div> 
                 </div>
-                <div>
-                    <div class="searching center bggreen">
-                        <img class="zigzag" alt="zigzag arrow" src="../static/images/zigzagarrow.png"/>
-                    </div> 
-                </div>
+                <div class="searching center bggreen" id="modes-btn">
+                    <img class="zigzag" alt="zigzag arrow" src="../static/images/zigzagarrow.png"/>
+                </div> 
             </div>
-            <div class="row spaceabetween">
-                <div class="column containertriangle">
-                    <div class="clip-triangle bglightgrey"></div>
-                    <div>
-                        <h4 class="greytext">bolandrina</h4>
-                        <h4 class="greytext italic">Sustantivo femenino (s.f.)</h4>
-                    </div>
-                    <div class="row">
-                        <h5 class="bordertext bordergreen greentext">Cat. Nor.</h5>
-                        <h5 class="center marginL3">oreneta</h5>
-                    </div>
-                    <div class="row">
-                        <h5 class="bordertext bordergreen greentext">Cast. Nor.</h5>
-                        <h5 class="center marginL3">golondrina</h5>
-                    </div>
-                </div>
-                <div class="column center bglightgrey dropdown displaynone">
-                    <h3 class="greentext">cat. nor.</h3>
-                    <div>
-                        <i class="fas fa-long-arrow-alt-up greentext"></i>
-                    </div>
-                    <h3 class="greentext bordertext bordergreen">cat. de ara.</h3>
-                    <div>
-                        <i class="fas fa-long-arrow-alt-down greentext"></i>
-                    </div>
-                    <h3 class="greentext">cast. nor</h3>
-                </div>
+            <div class="clip-triangle bglightgrey"></div>
+            
+            <div class="column bglightgrey center dropdown displaynone" id="modes_menu">
+                <h3 class="greentext">cat. nor.</h3>
+                <i class="fas fa-long-arrow-alt-up greentext"></i>
+                <h3 class="greentext bordertext bordergreen">cat. de ara.</h3>
+                <i class="fas fa-long-arrow-alt-down greentext"></i>
+                <h3 class="greentext">cast. nor</h3>
             </div>
+            
         </section>
-        <section>
-            <h3 class="bggreen whitetext dictionary-title">Varietats diatopiques</h3>
+        <section class="displaynone" id="dictionary">
+            <h4 class="greytext">bolandrina</h4>
+            <h4 class="greytext italic">Sustantivo femenino (s.f.)</h4>
+            <div class="row">
+                <h5 class="bordertext bordergreen greentext">Cat. Nor.</h5>
+                <h5 class="center marginL3">oreneta</h5>
+            </div>
+            <div class="row">
+                <h5 class="bordertext bordergreen greentext">Cast. Nor.</h5>
+                <h5 class="center marginL3">golondrina</h5>
+            </div>
+            <div>
+                <h3 class="bggreen whitetext dictionary-title">Varietats diatopiques</h3>
+            </div>
             <div>
                 <h3 class="bgdictionary darkgreytext dictionary-title">bolandrina</h3>
                 <h4 class="bglightgrey dictionary-paragraph">La Ribagorza (les Paúls, Sopeira)</h4>
@@ -115,5 +107,6 @@
       <i class="fas fa-chevron-up fas-xx-large"></i>
     </footer>
   </div>
+  <script src="{% static 'js/index.js' %}"></script>
 </body>
 </html>

@@ -100,7 +100,7 @@ input:focus-visible{
 }
 
 .clip-triangle{
-    clip-path: polygon(0% 0, 10% 64%, 20% 0);
+    clip-path: polygon(8% 0, 13% 63%, 18% 0);
     height: 37px;
 }
 
@@ -176,11 +176,6 @@ input:focus-visible{
 .headbase{
     justify-content: space-around;
     padding: 3% 0;
-}
-
-.containertriangle{
-    margin-left: 7%;
-    transform: translateY(-3px);
 }
 
 .linegrey{
