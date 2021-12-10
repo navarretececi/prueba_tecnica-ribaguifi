@@ -16,9 +16,11 @@ a:link,
 a:visited,
 a:active {
   text-decoration: none;
+  width: 100%;
+  height: 100%;
 }
 
-a:hover{
+a:hover, .pointer{
 	cursor: pointer;
 }
 
@@ -185,8 +187,9 @@ input:focus-visible{
 }
 
 .dropdown{
-    transform: translateY(-24px);
+    transform: translate(232px, -37px);
     width: 144px;
+    position: absolute;
 }
 
 .zigzag{
@@ -214,7 +217,7 @@ input:focus-visible{
 
 .margin3{
     margin: 3%;
-    min-height: 500px;
+    min-height: 570px;
 }
 
 
