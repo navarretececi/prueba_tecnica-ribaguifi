@@ -207,7 +207,8 @@ input:focus-visible{
 
 .dictionary-paragraph{
     margin-top: 0;
-    padding: 2%;
+    padding: 2% 5%;
+    line-height: 1.5;
 }
 
 .dictionary-title{
