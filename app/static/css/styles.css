@@ -12,6 +12,10 @@ body{
     background-color: var(--lightgrey);
 }
 
+i{
+    color: black;
+}
+
 a:link,
 a:visited,
 a:active {
@@ -221,18 +225,36 @@ input:focus-visible{
     min-height: 570px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .displaynone{
     display: none;
 }
+
+.swiper{
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-wrapper{
+    align-items: center;
+}
+
+.swiper-slide{
+    text-align: center;
+}
+
+.swiper-button-prev  {
+    left: 90px!important;
+}
+
+.swiper-button-next  {
+    left: 208px!important;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    content: ""!important;
+}
+
+.swiper-slide-next{
+    border-style: solid;
+}
+  

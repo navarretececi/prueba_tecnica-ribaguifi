@@ -13,6 +13,8 @@
       src="https://kit.fontawesome.com/1ed068a928.js"
       crossorigin="anonymous"
   ></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 </head>
 <body>
   <div class="container bggreen">
@@ -39,16 +41,22 @@
         </div>
       </div>
       <div class="selector row">
-        <h3>cat. nor</h3>
-        <i class="fas fa-arrow-left"></i>
-        <h3 class="bordertext">cat. de ara.</h3>
-        <i class="fas fa-arrow-right"></i>
-        <h3>cast. nor</h3>
-      </div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">cat. nor</div>
+              <div class="swiper-slide">cat. de ara.</div>
+              <div class="swiper-slide">cast. nor</div>
+          </div>
+          <div class="swiper-button-next"><i class="fas fa-arrow-right"></i></div>
+          <div class="swiper-button-prev"><i class="fas fa-arrow-left"></i></div>
+        </div>
+    </div>
+
     </section>
     <footer class="footer center">
       <i class="fas fa-chevron-up fas-xx-large"></i>
     </footer>
   </div>
+  <script src="{% static 'js/index-2.js' %}"></script>
 </body>
 </html>
